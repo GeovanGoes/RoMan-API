@@ -1,0 +1,9 @@
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/model/Role.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/repository/ParticipanteRepository.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/RoManApplication.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/repository/RoleRepository.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/model/Particpante.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/repository/PagamentoRepository.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/model/Custo.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/model/Pagamento.java
+/home/geovan/Downloads/RoMan-API/src/main/java/br/com/geovan/roman/repository/CustoRepository.java

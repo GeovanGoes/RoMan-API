@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
@@ -20,8 +21,6 @@ public @Data class Custo {
 	private String categoria;
 	private BigDecimal quantidade;
 	private BigDecimal valor;
-	@ManyToMany
-	private Set<Particpante> participantes;
 	
 	
 }

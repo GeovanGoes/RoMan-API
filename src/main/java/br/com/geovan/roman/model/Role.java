@@ -4,10 +4,13 @@ import java.time.LocalDateTime;
 import java.util.Set;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Data;
 
@@ -21,10 +24,10 @@ public @Data class Role {
 	private String nome;
 	private String local;
 	private LocalDateTime data;
-	@OneToMany
+	@OneToMany(fetch=FetchType.EAGER)
 	private Set<Custo> custos;
-	@ManyToMany
-	private Set<Particpante> participantes;
+	@ManyToMany(fetch=FetchType.EAGER)
+	private Set<Participante> participantes;
 	
 	private String status;
 }

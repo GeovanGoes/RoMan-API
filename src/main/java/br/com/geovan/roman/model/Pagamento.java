@@ -17,6 +17,6 @@ public @Data class Pagamento {
 	private Long id;
 	private BigDecimal valor;
 	@ManyToOne
-	private Particpante participante;
+	private Participante participante;
 	
 }
